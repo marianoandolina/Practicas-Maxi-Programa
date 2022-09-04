@@ -107,6 +107,8 @@ ser	solicitados	una	única	vez. """
 # print(f"La suma da {s}, la resta da {r}, la multiplicacion da {mult} y la divicion da {div}")
 
 
+# EJERCICIOS TERMINADOS, OPERADORES ARITMETICOS.
+
 
 
 
