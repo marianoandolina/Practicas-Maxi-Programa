@@ -20,3 +20,12 @@
 #     r= n2 - n1
 #     print(f"El resultado de la resta de el mayor con el menor es {r}")
 
+# Hacer	un	programa	para	ingresar	un	número	y	luego	se	emita	por	pantalla	un	
+# cartel	aclaratorio	si	“Es	mayor	a	10”	o	“No	es	mayor	a	10”.
+
+n1= int(input("Ingrese un numero: "))
+
+if n1>10:
+    print("El numero es mayor a 10")
+else:
+    print("No es mayor a 10")
