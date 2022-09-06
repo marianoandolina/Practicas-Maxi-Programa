@@ -55,3 +55,15 @@
 # if n1==n2:
 #     print("Son Iguales")
 
+# Hacer	un	programa	para	ingresar	un	número	y	luego	se	emita	un	cartel	por	
+# pantalla	“Positivo”	si	el	número	es	mayor	a	cero,	“Negativo”	si	el	número	es	
+# menor	a	cero	o	“Cero”	si	el	número	es	igual	a	cero.	
+
+# n1= int(input("Ingresa un numero: "))
+
+# if n1>0:
+#     print("Positivo")
+# elif n1<0:
+#     print("Negativo")
+# else:
+#     print("Cero")    
