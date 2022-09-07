@@ -66,4 +66,19 @@
 # elif n1<0:
 #     print("Negativo")
 # else:
-#     print("Cero")    
+#     print("Cero")
+
+#Ejercicio Practico --- Ingresar 3 numeros y que muestre siempre el mayor de los 3. 
+
+# a= int(input("Ingrese un numero: "))
+# b= int(input("Ingrese un numero: "))
+# c= int(input("Ingrese un numero: "))
+
+# if a>b:
+#     if a>c:
+#         print(f"El mayo de todos es {a}")
+# elif b>c:
+#     print(f"El mayor es {b}")
+# else:
+#     print(f"El mayor es {c}")
+
