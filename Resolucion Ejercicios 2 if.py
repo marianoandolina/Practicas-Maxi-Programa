@@ -107,4 +107,24 @@
 # else:
 #     print(f"El total es {importe}")
 
+# EJERCICIO "Ingresar 4 numero e y mostrar por pantalla cuantos son menores a 100"
+
+# numero_1= int(input("Ingresa el nro 1: "))
+# numero_2= int(input("Ingresa el nro 2: "))
+# numero_3= int(input("Ingresa el nro 3: "))
+# numero_4= int(input("Ingresa el nro 4: "))
+
+# mayores= int(0)
+
+# if numero_1>100:
+#     mayores += int(1)
+# if numero_2>100:
+#     mayores += int(1)
+# if numero_3>100:
+#     mayores += int(1)
+# if numero_3>100:
+#     mayores += int(1)
+
+# print(mayores)
+
 
