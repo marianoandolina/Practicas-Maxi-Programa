@@ -84,12 +84,27 @@
 
 ## EJERCICIO PROPIO, INGRESAR 2 NOTAS Y QUE MUESTRE EL CARTEL DE "APROBADO" SI EL PROMEDIO DE AMBAS ES IGUAL O MAYOR A 7.
 
-nota_1= int(input("Ingrese la nota de Matematica: "))
-nota_2= int(input("Ingrese la nota de Algebra: "))
+# nota_1= int(input("Ingrese la nota de Matematica: "))
+# nota_2= int(input("Ingrese la nota de Algebra: "))
 
-promedio= (nota_1 + nota_2) / 2
+# promedio= (nota_1 + nota_2) / 2
 
-if promedio >= 7:
-    print(f"Tu promedio es {promedio} por lo tanto aprobaste.")
-else:
-    print(f"Tu promedio es {promedio} por lo tanto no estas aprobado.")    
+# if promedio >= 7:
+#     print(f"Tu promedio es {promedio} por lo tanto aprobaste.")
+# else:
+#     print(f"Tu promedio es {promedio} por lo tanto no estas aprobado.")    
+
+#EJERCICIO "Ingresar importe, si es menor a $1000 no tiene descuento, entre 1000 y 5000 tiene un 10% de descuento y mayor a 5000 tiene un 15% de descuento"
+
+# importe= int(input("Ingrese el importe total de la compra: "))
+
+# if importe > 1000 and importe < 5000:
+#     total= importe * 0.90
+#     print(f"El total con el descuento es {total}")
+# elif importe > 5000:
+#     total= importe * 0.85 
+#     print(f"El total con el descuento es {total}")
+# else:
+#     print(f"El total es {importe}")
+
+
