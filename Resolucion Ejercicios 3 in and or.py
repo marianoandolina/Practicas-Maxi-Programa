@@ -86,6 +86,92 @@ El programa debe emitir solo un cartel, el que corresponda.'''
 # if nota_1<6 or nota_2<6:
 #     print("Debe recueperar")
 
+'''---> 6. Hacer un programa para ingresar por teclado la longitud de los tres lados de un
+triángulo y que luego determine e informe con un cartel aclaratorio a qué tipo
+de triángulo corresponde:
+a. Equilátero: cuando los tres lados sean iguales.
+b. Isósceles: cuando dos de los tres lados sean iguales.
+c. Escaleno: cuando todos los lados sean distintos.'''
+
+# lado_a= int(input("Ingrese el lado a del triangulo: "))
+# lado_b= int(input("Ingrese el lado b del triangulo: "))
+# lado_c= int(input("Ingrese el lado c del triangulo: "))
+
+# if lado_a==lado_b and lado_a==lado_c and lado_b==lado_c:
+#     print("Es un triangulo Equilatero")
+# if (lado_a==lado_b and lado_a!=lado_c) or (lado_b==lado_c and lado_c!=lado_a) or (lado_c==lado_a and lado_c!=lado_b):
+#     print("Es un triangulo Isoceles")
+# if lado_a!=lado_b and lado_a!=lado_c and lado_b!=lado_c:
+#     print("El triangulo es Escaleno")
+
+''' ---> 7. Hacer un programa para ingresar 4 números. Luego analizar e informar por
+pantalla si los mismos se encuentran ordenados de forma decreciente.'''
+
+# num_1= int(input("Ingrese el primer numero: ")) 
+# num_2= int(input("Ingrese el segundo numero: "))
+# num_3= int(input("Ingrese el tercer numero: "))
+# num_4= int(input("Ingrese el cuarto numero: "))
+
+# if num_1>num_2 and num_2>num_3 and num_3>num_4:
+#     print("Estan ordenados decrecientemente")
+# else:
+#     print("No estan ordenados decrecientemente.")
+ 
+'''8. El negocio de desinfectante antes mencionado vende además detergente
+suelto, y los precios se aplican según la siguiente escala:
+a. 25 ARS por litro los primeros 50 litros.
+b. 20 ARS por litro si la venta es de 51 a 200 litros.
+c. 15 ARS por litro si la venta es de 201 a 500 litros.
+d. 10 ARS por litro si la venta es de más de 500 litros.
+Además, si paga en efectivo, tiene un adicional del 10% sobre el importe final.
+Hacer un programa que solicite la cantidad de litros vendidos y el tipo de pago
+(ingresará 1 si paga en efectivo y 0 con cualquier otro medio de pago) y calcule
+y emita por pantalla el monto final a abonar por el cliente.'''
+    
+
+# lts= int(input("Ingrese los litros vendidos."))
+# pago= int(input("Ingrese la forma de pago 1 para efectivo, 0 para cualquier otro medio de pago."))
+# valor_del_litro= int(0)
+
+# if lts<50 and pago==1:
+#     valor_del_litro= int(25)
+#     total= (lts*valor_del_litro)*0.90
+#     print(f"El total es {total} pesos")
+# elif lts<50 and pago==0:
+#     valor_del_litro= int(25)
+#     total= (lts*valor_del_litro)
+#     print(f"El total es {total} pesos")
+
+# if lts>50 and lts<200 and pago==1:
+#     valor_del_litro= int(20)
+#     total= (lts*valor_del_litro)*0.90
+#     print(f"El total es {total} pesos")
+# elif lts>50 and lts<200 and pago==0 : 
+#     valor_del_litro= int(20)
+#     total= (lts*valor_del_litro)
+#     print(f"El total es {total} pesos")
+
+# if lts>199 and lts<500 and pago==1:
+#     valor_del_litro= int(15)
+#     total= (lts*valor_del_litro)*0.90
+#     print(f"El total es {total} pesos")
+# elif lts>199 and lts<500 and pago==0:
+#     valor_del_litro= int(15)
+#     total= (lts*valor_del_litro)
+#     print(f"El total es {total} pesos")
+
+# if lts>499 and pago==1:
+#     valor_del_litro= int(10)
+#     total= (lts*valor_del_litro)*0.90
+#     print(f"El total es {total} pesos")
+# elif lts>499 and pago==0:
+#     valor_del_litro= int(10)
+#     total= (lts*valor_del_litro)
+#     print(f"El total es {total} pesos")
+
+    
+
+
 
 
 
