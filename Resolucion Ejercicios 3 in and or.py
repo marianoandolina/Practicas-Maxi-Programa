@@ -53,18 +53,39 @@ Hacer un programa que solicite el ingreso del importe total de la venta y la
 cantidad de litros vendidos y calcule y emita el importe con el descuento
 aplicado.'''
 
-litros_vendidos= int(input("Cuantos litros se vendieron: "))
-valor_litro= int(12)
-importe= litros_vendidos*valor_litro
+# litros_vendidos= int(input("Cuantos litros se vendieron: "))
+# valor_litro= int(12)
+# importe= litros_vendidos*valor_litro
 
-if litros_vendidos<100:
-    print(f"El importe total es {importe}, no se aplica descuento")
-if litros_vendidos>100 and litros_vendidos<301:
-    importe_final= importe * 0.90
-    print(f"El importe con el descuento es de {importe_final} pesos")
-if litros_vendidos>500:
-    importe_final= importe * 0.85
-    print(f"El importe con el descuento es de {importe_final} pesos")          
+# if litros_vendidos<100:
+#     print(f"El importe total es {importe}, no se aplica descuento")
+# if litros_vendidos>100 and litros_vendidos<301:
+#     importe_final= importe * 0.90
+#     print(f"El importe con el descuento es de {importe_final} pesos")
+# if litros_vendidos>500:
+#     importe_final= importe * 0.85
+#     print(f"El importe con el descuento es de {importe_final} pesos")          
+
+'''5. --- Hacer un programa que solicite el ingreso de las notas del primer parcial y del
+segundo parcial de una alumna de programación. El programa deberá analizar
+las notas y emitir la situación de la alumna según la siguiente escala:
+a. Si tiene 8 o más en ambos parciales, emitir “aprobación directa”.
+b. Si no tiene 8 o más en ambos pero tiene aprobados ambos parciales (se
+aprueba con 6 o más), emitir “rinde examen final”.
+c. Si tiene menos de 6 en alguno de los dos parciales, emitir “debe
+recuperar”.
+El programa debe emitir solo un cartel, el que corresponda.'''
+
+# nota_1= int(input("Ingrese la nota del primer parcial: "))
+# nota_2= int(input("Ingrese la nota del segundo parcial: "))
+
+# if nota_1>=8 and nota_2>=8:
+#     print("Directamente aprobada")
+# if (nota_1>=6 and nota_1<=7) and (nota_2>=7 and nota_2<=7):
+#     print("Rinde el examen final")
+# if nota_1<6 or nota_2<6:
+#     print("Debe recueperar")
+
 
 
 
