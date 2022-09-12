@@ -25,7 +25,7 @@ Se deberá emitir un cartel por pantalla con el resultado correspondiente.'''
 # if n1==n2:
 #     suma= n1 + n2
 #     print(suma)
-# if n1<n2:
+# else n1<n2:
 #     producto= n1*n2
 #     print(producto)    
 
@@ -53,18 +53,21 @@ Hacer un programa que solicite el ingreso del importe total de la venta y la
 cantidad de litros vendidos y calcule y emita el importe con el descuento
 aplicado.'''
 
-# litros_vendidos= int(input("Cuantos litros se vendieron: "))
-# valor_litro= int(12)
-# importe= litros_vendidos*valor_litro
+litros_vendidos= int(input("Cuantos litros se vendieron: "))
+valor_litro= int(12)
+importe= litros_vendidos*valor_litro
 
-# if litros_vendidos<100:
-#     print(f"El importe total es {importe}, no se aplica descuento")
-# if litros_vendidos>100 and litros_vendidos<301:
-#     importe_final= importe * 0.90
-#     print(f"El importe con el descuento es de {importe_final} pesos")
-# if litros_vendidos>500:
-#     importe_final= importe * 0.85
-#     print(f"El importe con el descuento es de {importe_final} pesos")          
+if litros_vendidos<100:
+    print(f"El importe total es {importe}, no se aplica descuento")
+if litros_vendidos>100 and litros_vendidos<301:
+    importe_final= importe * 0.90
+    print(f"El importe con el descuento es de {importe_final} pesos")
+if litros_vendidos>300 and litros_vendidos<501:
+    importe_final= importe * 0.85
+    print(f"El importe con el descuento es de {importe_final} pesos")
+if litros_vendidos>500:
+    importe_final= importe * 0.75
+    print(f"El importe con el descuento es de {importe_final} pesos")          
 
 '''5. --- Hacer un programa que solicite el ingreso de las notas del primer parcial y del
 segundo parcial de una alumna de programación. El programa deberá analizar
@@ -127,7 +130,7 @@ Además, si paga en efectivo, tiene un adicional del 10% sobre el importe final.
 Hacer un programa que solicite la cantidad de litros vendidos y el tipo de pago
 (ingresará 1 si paga en efectivo y 0 con cualquier otro medio de pago) y calcule
 y emita por pantalla el monto final a abonar por el cliente.'''
-    
+
 
 # lts= int(input("Ingrese los litros vendidos."))
 # pago= int(input("Ingrese la forma de pago 1 para efectivo, 0 para cualquier otro medio de pago."))
@@ -168,6 +171,7 @@ y emita por pantalla el monto final a abonar por el cliente.'''
 #     valor_del_litro= int(10)
 #     total= (lts*valor_del_litro)
 #     print(f"El total es {total} pesos")
+
 
     
 
